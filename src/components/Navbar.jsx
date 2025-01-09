@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -13,7 +14,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Home', 'Portfolio', 'Contact', 'LinkedIn'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -44,7 +45,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/home"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -97,7 +98,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/home"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -115,6 +116,8 @@ function ResponsiveAppBar() {
             {pages.map((page) => (
               <Button
                 key={page}
+                component={Link}
+                to={`/${page.toLowerCase()}`}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >

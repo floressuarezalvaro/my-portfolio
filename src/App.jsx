@@ -1,19 +1,20 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
 import './App.css';
 import ResponsiveAppBar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <ResponsiveAppBar />
-      <main>
-        <h1>My Portfolio</h1>
-        <div className="card">
-          <p>
-            Edit <code>src/App.jsx</code> and save to test HMR
-          </p>
-        </div>
-      </main>
-    </div>
+    <Router>
+    <ResponsiveAppBar />
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        {/* <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/linkedin" element={<LinkedIn />} /> */}
+      </Routes>
+    </Router>
   );
 }
 
