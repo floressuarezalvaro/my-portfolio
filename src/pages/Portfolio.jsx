@@ -1,15 +1,15 @@
-function Home() {
+function Portfolio() {
     return (
       <main>
-        <h1>Home</h1>
+        <h1>My Portfolio</h1>
         <div className="card">
           <p>
-            Welcome to my page!
+            Welcome to my portfolio!
           </p>
         </div>
       </main>
     );
   }
 
-export default Home;
+export default Portfolio;
 
