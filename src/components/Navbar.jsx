@@ -40,8 +40,9 @@ function ResponsiveAppBar() {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'Ephesis',
-              fontWeight: 700,
-              letterSpacing: '.2rem',
+              fontSize: '2rem',
+              fontWeight: 900,
+              letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
@@ -96,7 +97,8 @@ function ResponsiveAppBar() {
               flexGrow: 1,
               fontFamily: 'Ephesis',
               fontWeight: 700,
-              letterSpacing: '.3rem',
+              fontSize: '2rem',
+              letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
@@ -117,21 +119,29 @@ function ResponsiveAppBar() {
             ))}
 
             <Button
-              href="https://www.linkedin.com/in/afloressuarez/"
-              target="_blank"
-              rel="noopener noreferrer"
-              sx={{ my: 2, color: 'white', display: 'block' }}
-            >
-              LinkedIn
-            </Button>
-
-            <Button
               href="/floresSuarezResume.pdf"
               target="_blank"
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
               Resume
             </Button>
+
+          </Box>
+          
+          <Box>
+            <IconButton
+                href="https://www.linkedin.com/in/afloressuarez/"
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{ my: 2, color: 'white', display: 'block' }}
+                size="small"
+              >
+                <img 
+                  src="/linkedIn.png" 
+                  alt="LinkedIn" 
+                  style={{ width: 32, height: 32 }}
+                />
+            </IconButton>
           </Box>
         </Toolbar>
       </Container>
