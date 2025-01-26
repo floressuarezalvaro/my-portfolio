@@ -41,7 +41,6 @@ function ResponsiveAppBar() {
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'Ephesis',
               fontSize: '2rem',
-              fontWeight: 900,
               letterSpacing: '.1rem',
               color: 'inherit',
               textDecoration: 'none',
@@ -86,6 +85,7 @@ function ResponsiveAppBar() {
             </Menu>
           </Box>
           
+          <Avatar sx={{ display: { xs: 'flex', md: 'none' }, mr: 1, width: 56, height: 56 }} alt="Alvaro Flores Suarez"  src="/AFS.jpg" />
           <Typography
             variant="h5"
             noWrap
@@ -96,7 +96,6 @@ function ResponsiveAppBar() {
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'Ephesis',
-              fontWeight: 700,
               fontSize: '2rem',
               letterSpacing: '.1rem',
               color: 'inherit',
