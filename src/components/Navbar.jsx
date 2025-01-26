@@ -115,6 +115,14 @@ function ResponsiveAppBar() {
                 {page}
               </Button>
             ))}
+            <Button
+              href="https://www.linkedin.com/in/afloressuarez/"
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{ my: 2, color: 'white', display: 'block' }}
+            >
+              LinkedIn
+            </Button>
           </Box>
         </Toolbar>
       </Container>
