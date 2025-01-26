@@ -115,6 +115,7 @@ function ResponsiveAppBar() {
                 {page}
               </Button>
             ))}
+
             <Button
               href="https://www.linkedin.com/in/afloressuarez/"
               target="_blank"
@@ -122,6 +123,14 @@ function ResponsiveAppBar() {
               sx={{ my: 2, color: 'white', display: 'block' }}
             >
               LinkedIn
+            </Button>
+
+            <Button
+              href="/floresSuarezResume.pdf"
+              target="_blank"
+              sx={{ my: 2, color: 'white', display: 'block' }}
+            >
+              Resume
             </Button>
           </Box>
         </Toolbar>
