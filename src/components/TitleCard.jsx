@@ -9,7 +9,7 @@ export default function ActionAreaCard({ title }) {
   return (
     <Card sx={{ flex: 1 }}>
       <CardActionArea>
-        <CardContent>
+        <CardContent sx={{ backgroundColor: "grey.300" }}>
           <Typography gutterBottom variant='h5' align='center' component='div'>
             {title}
           </Typography>
