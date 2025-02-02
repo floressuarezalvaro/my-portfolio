@@ -8,12 +8,13 @@ function Home() {
         alt='background'
         className='background-image'
       />
+
       <Paper elevation={3} className='paper'>
-        <h2>Welcome!</h2>
+        <h2>Welcome</h2>
         <p>
-          Welcome! My name is Alvaro Flores Suarez. I've created this webpage so
-          that you could learn more about me, see my most updated resume, and
-          find various ways to contact me. Feel free to browse around, or just
+          My name is Alvaro Flores Suarez. I've created this webpage so that you
+          could learn more about me, see my most updated resume, and find
+          various ways to contact me. Feel free to browse around, or just
           contact me so we can get in touch!
           <br />
           <br />
