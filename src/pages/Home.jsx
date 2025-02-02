@@ -1,4 +1,5 @@
 import Paper from "@mui/material/Paper";
+import Avatar from "@mui/material/Avatar";
 
 function Home() {
   return (
@@ -10,7 +11,13 @@ function Home() {
       />
 
       <Paper elevation={3} className='paper'>
+        <Avatar
+          alt='Alvaro Flores Suarez'
+          src='./selfie.jpeg'
+          sx={{ width: 300, height: 300, margin: "auto" }}
+        />
         <h2>Welcome</h2>
+
         <p>
           My name is Alvaro Flores Suarez. I've created this webpage so that you
           could learn more about me, see my most updated resume, and find
