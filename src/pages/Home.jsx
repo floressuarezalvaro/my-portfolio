@@ -4,12 +4,6 @@ import Avatar from "@mui/material/Avatar";
 function Home() {
   return (
     <main>
-      <img
-        src='./TitleCard.jpeg'
-        alt='background'
-        className='background-image'
-      />
-
       <Paper elevation={3} className='paper'>
         <Avatar
           alt='Alvaro Flores Suarez'

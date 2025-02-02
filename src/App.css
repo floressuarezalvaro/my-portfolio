@@ -51,7 +51,7 @@ main {
 .background-image {
   top: 0; 
   position: fixed;
-  max-height: 30vh;
+  max-height: 50vh;
   width: 100%;
   z-index: -1;
 }

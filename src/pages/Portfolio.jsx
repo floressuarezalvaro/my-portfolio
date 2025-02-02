@@ -1,12 +1,14 @@
-import ActionAreaCard from "../components/TitleCard";
+import Paper from "@mui/material/Paper";
 
 function Portfolio() {
   return (
     <main>
-      <ActionAreaCard title={"Portfolio"} />
-      <div className='card'>
+      <Paper elevation={3} className='paper'>
+        <h2>Portfolio</h2>
+
         <p>Welcome to my portfolio!</p>
-      </div>
+        <p>This is a work in progress</p>
+      </Paper>
     </main>
   );
 }

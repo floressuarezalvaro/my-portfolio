@@ -10,6 +10,11 @@ function App() {
   return (
     <Router>
       <ResponsiveAppBar />
+      <img
+        src='./TitleCard.jpeg'
+        alt='background'
+        className='background-image'
+      />
       <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='/portfolio' element={<Portfolio />} />
