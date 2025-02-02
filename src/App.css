@@ -39,3 +39,16 @@ main {
 .card {
   padding: 2em;
 }
+
+.paper {
+  max-width: 800px;
+  margin: auto; 
+  padding: 16px;
+}
+
+.background-image {
+  position: fixed;
+  max-height: 30vh;
+  width: 100%;
+  z-index: -1;
+}

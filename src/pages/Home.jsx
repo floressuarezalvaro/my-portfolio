@@ -1,10 +1,15 @@
-import ActionAreaCard from "../components/TitleCard";
+import Paper from "@mui/material/Paper";
 
 function Home() {
   return (
     <main>
-      <ActionAreaCard title={"Home"} />
-      <div className='card'>
+      <img
+        src='./TitleCard.jpeg'
+        alt='background'
+        className='background-image'
+      />
+      <Paper elevation={3} className='paper'>
+        <h2>Welcome!</h2>
         <p>
           Welcome! My name is Alvaro Flores Suarez. I've created this webpage so
           that you could learn more about me, see my most updated resume, and
@@ -39,7 +44,7 @@ function Home() {
           different backgrounds and occupations. Looking forward to connecting
           with you, and hopefully speaking with you soon!
         </p>
-      </div>
+      </Paper>
     </main>
   );
 }
