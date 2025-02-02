@@ -40,10 +40,12 @@ main {
   padding: 2em;
 }
 
-.paper {
-  max-width: 800px;
-  margin: 50px auto; 
-  padding: 16px;
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;   
+  padding: 1em 0;        
 }
 
 .background-image {
@@ -52,4 +54,10 @@ main {
   max-height: 30vh;
   width: 100%;
   z-index: -1;
+}
+
+.paper {
+  max-width: 800px;
+  margin: 50px auto 5px auto;
+  padding: 16px;
 }

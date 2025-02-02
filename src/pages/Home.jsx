@@ -1,6 +1,8 @@
 import Paper from "@mui/material/Paper";
 import Avatar from "@mui/material/Avatar";
 
+import Contact from "./Contact";
+
 function Home() {
   return (
     <main>
@@ -53,6 +55,8 @@ function Home() {
           with you, and hopefully speaking with you soon!
         </p>
       </Paper>
+
+      <Contact />
     </main>
   );
 }
