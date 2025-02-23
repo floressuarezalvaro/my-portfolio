@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./components/Contact";
+import Resume from "./pages/Resume";
+
 import "./App.css";
 import ResponsiveAppBar from "./components/Navbar";
 
@@ -18,6 +20,7 @@ function App() {
       <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/resume' element={<Resume />} />
       </Routes>
       <Contact />
     </Router>

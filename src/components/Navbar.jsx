@@ -12,7 +12,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 
-const pages = ["Home", "Portfolio"];
+const pages = ["Home", "Portfolio", "Resume"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -138,14 +138,6 @@ function ResponsiveAppBar() {
                 {page}
               </Button>
             ))}
-
-            <Button
-              href='/floresSuarezResume.pdf'
-              target='_blank'
-              sx={{ my: 2, color: "white", display: "block" }}
-            >
-              Resume
-            </Button>
           </Box>
 
           <Box>
