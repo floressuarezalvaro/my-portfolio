@@ -1,5 +1,5 @@
 import Paper from "@mui/material/Paper";
-import { Container, Typography } from "@mui/material";
+import { Button, Container, Typography } from "@mui/material";
 import Box from "@mui/material/Box";
 
 function Resume() {
@@ -144,6 +144,16 @@ function Resume() {
               Zendesk.
             </Typography>
           </Box>
+        </Box>
+        <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
+          <Button
+            variant='contained'
+            href='/floresSuarezResume.pdf'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Download PDF
+          </Button>
         </Box>
       </Paper>
     </main>
